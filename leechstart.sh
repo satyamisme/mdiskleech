@@ -8,8 +8,8 @@ echo yes | pip3 install -r requirements.txt
 echo yes | sudo docker container prune
 echo yes | sudo docker image prune -a
 sudo dockerd
-sudo docker build . -t mdisk-bot
-sudo docker run -p 90:90 mdisk-bot
+sudo docker build . -t genesismdisk
+sudo docker run -p 55:55 genesismdisk
 
 
 
